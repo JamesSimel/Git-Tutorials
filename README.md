@@ -2,7 +2,7 @@
 1. git clone
 This command is always written with an option of the URL where you host you project e.g., from Github.
 
-```git clone https://github.com/JamesSimel/Git-Tutorials.git``
+```git clone https://github.com/JamesSimel/Git-Tutorials.git```
 
 git clones copies the repository files from a remote place to you local machine where you can access it.
 
@@ -14,7 +14,7 @@ Has some uses:
 - checks which branch you are in.
 - when passed with another switch/ or option like ``git branch new-branch``, it will create a new branch called the **new-branch**.
 4. git checkout -b <branch name>
-```git checkout -b <branch name> ```
+```git checkout -b <branch name>```
 The command above creates a new branch and also checkout to the new branch.
 When you ommit the *-b* flag, you will be change or switching branches. e.g., changing from main branch to new branch.
 5. git switch
