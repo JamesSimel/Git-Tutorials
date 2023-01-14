@@ -32,6 +32,8 @@ Publishes all the changes made locally to  the remote repository, by staging all
 Downloads all the changes made to the parent repo that is available remotely to the local repo if there are any changes. If there are any conficts, it will try to automerge and if they are automergable, the maintainer or person pulling has to figure this out.
 8. git rebase
 
+Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+
 9. git branch --delete <branch name>
 This deletes branches availabale localy.
 
