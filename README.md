@@ -9,7 +9,10 @@ git clones copies the repository files from a remote place to you local machine 
 
 2. git status
 
-Checks the status of the repo, by looking at the changes made to the file, changes on stage and changes that can be pushed if any.
+Displays the state of the working directory and the staging area.
+
+It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+
 
 3. git branch
 
@@ -50,6 +53,21 @@ We can also add a path:
 This command declares to git that we are making this changes by writing a message of **what we are committing** and **why we are committing** for others to understand.
 We can write a message right after the commit word by adding a flag **-m** and we add as many as we want. Example:
 ```git commit -m "First message" -m "Second Mesaage..."```
+
+12. git log
+
+Outputs the information regarding the comiited project history or committed snapshots. It lists the projects history, filter it, and search for specific changes.
+
+13. git tag
+Tags are ref's that point to specific points in Git history.
+```git tag``` is generally used to capture a point in history that is used for a marked version release (i.e. v1.0.1).
+
+14. git blame
+when given a file e.g., ``` git blame Reame.MD ```
+It will display the Metadata of the file attache to specific committed lines. 
+
+It is used to explore the history of specific code, and answer questions about what, how, and why the code was added to the repo.
+
 
 Thanks for reading!
 
